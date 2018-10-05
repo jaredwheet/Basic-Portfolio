@@ -1,9 +1,7 @@
 body {    
     display: flex;
     flex-direction: column;
-    align-items: center;       
-    width: 100vw;
-    height: 100vh;
+    align-items: center;        
     margin: 0;
     padding: 0; 
     background-image: url("../images/concrete_seamless.png"); 
@@ -14,8 +12,7 @@ header {
     display: flex;
     flex-direction: row; 
     justify-content: center;
-    width: 100%; 
-    height: 88px;   
+    width: 100%;       
     background-color: white;
     border-color: #cccccc;
     border-style: solid;
@@ -24,20 +21,16 @@ header {
 }
 
 #header-content { 
-    display: flex;   
-    justify-content: center;
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: space-between;
     width: 960px; 
-    height: 88px;
-    position: relative; 
-    bottom: 0;  
+    align-items: center;
+    
 }
 
-.name {
-    position: absolute;
-    bottom: 0;
-    left: 0;        
-    background-color: #4aaaa5;    
-    
+.name {            
+    background-color: #4aaaa5;     
     margin: 0px;
     padding: 15px;
     color: white;
@@ -45,10 +38,7 @@ header {
 }
 
 .nav { 
-    display: flex;
-    position: absolute; 
-    right: 0;
-    bottom: 0;  
+    display: flex;      
     list-style: none;    
     background-color: white;
     color: #777777;
@@ -58,6 +48,7 @@ header {
 
 li {
     display: inline;
+    
 }
 
 a {
@@ -90,9 +81,8 @@ a:hover {
 #main-content {
     display: flex;
     flex-direction: column; 
-    margin: 30px 0 50px 0;
-    width: 960px;
-    position: absolute;
+    margin: 30px 0 65px 0;
+    width: 960px;    
     top: 90px;    
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
     background-color: white;

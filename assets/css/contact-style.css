@@ -3,8 +3,13 @@
     align-items: center;       
 }
 
-#heading2 {
-    width: 100%;
+#contact-heading {
+    color: #4aaaa5;
+    padding-left: 15px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 100%;    
+    padding: 15px 0 15px 25px;
+    margin: 0px;
 }
 
 form {
@@ -29,5 +34,23 @@ input[name="message"] {
     box-sizing: border-box;
     width: 930px;
     height: 100px;
+}
+
+.button {
+    background-color: #7777777;
+    border: 2px solid #4aaaa5;
+    color: #4aaaa5;    
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0 5px 0;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #4aaaa5;
+    color: white;
 }
 
