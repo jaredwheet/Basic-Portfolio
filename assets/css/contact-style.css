@@ -1,0 +1,33 @@
+#main-content {
+    display: flex;  
+    align-items: center;       
+}
+
+#heading2 {
+    width: 100%;
+}
+
+form {
+    color: #777777; 
+       
+}
+
+input[name="name"] {    
+    margin: 5px 0 5px 0;
+    box-sizing: border-box;
+    width: 930px;
+}
+
+input[name="e-mail"] {    
+    margin: 5px 0 5px 0;
+    box-sizing: border-box;
+    width: 930px;
+}
+
+input[name="message"] {    
+    margin: 5px 0 5px 0;
+    box-sizing: border-box;
+    width: 930px;
+    height: 100px;
+}
+

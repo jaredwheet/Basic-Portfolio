@@ -5,17 +5,20 @@
         <title>Jared Wheet's Portfolio</title>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/portfoliocss.css" />
     </head>
 
     <body>
 
         <header>
-            <h1 class="name">Jared Wheet</h1>
-            <ul class="nav">
-                <li><a href="index.html">About</a>&nbsp&nbsp&nbsp&nbsp&nbsp|</li>
-                <li>&nbsp&nbsp&nbsp&nbsp&nbsp   <a href="portfolio.html">Portfolio</a>&nbsp&nbsp&nbsp&nbsp&nbsp|</li>
-                <li>&nbsp&nbsp&nbsp&nbsp&nbsp   <a href="contact.html">Contact</a></li>
-            </ul>
+            <div id="header-content">
+                <h1 class="name">Jared Wheet</h1>
+                <ul class="nav">
+                    <li><a href="index.html">About</a>&nbsp&nbsp&nbsp&nbsp&nbsp|</li>
+                    <li>&nbsp&nbsp&nbsp&nbsp&nbsp   <a href="portfolio.html">Portfolio</a>&nbsp&nbsp&nbsp&nbsp&nbsp|</li>
+                    <li>&nbsp&nbsp&nbsp&nbsp&nbsp   <a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </header> 
 
         <div id="main-content">
@@ -23,27 +26,48 @@
 
             <hr />
 
-            <div id="portfolio-images">
+            <div class="portfolio-images">
+                
+                <div id="row">
+                    <div id="image">                        
+                        <img id="image1"
+                        src="C:\Users\jared\git\Basic-Portfolio\assets\images\Placeholder1.jpg"
+                        alt="Placeholder Image"/>
+                        <div class="image-text-alignment">Image Text</div>
+                    </div>
+                    <div id="image">
+                        
+                        <img id="image2"
+                        src="C:\Users\jared\git\Basic-Portfolio\assets\images\Placeholder2.jpg"
+                        alt="Placeholder Image"/>
+                        <div class="image-text-alignment">Image Text</div>
+                    </div>
+                </div>
 
-                <img id="image1"
-                src="C:\Users\jared\git\Basic-Portfolio\assets\images\Placeholder1.jpg"
-                alt="Placeholder Image"/>
-            
-                <img id="image2"
-                    src="C:\Users\jared\git\Basic-Portfolio\assets\images\Placeholder2.jpg"
-                    alt="Placeholder Image"/>
+                <div id="row"> 
+                    <div id="image">                                     
+                        <img id="image3"
+                            src="C:\Users\jared\git\Basic-Portfolio\assets\images\Placeholder3.jpg"
+                            alt="Placeholder Image"/>
+                            <div class="image-text-alignment">Image Text</div>
+                    </div>
+                    <div id="image">                        
+                        <img id="image4"
+                        src="C:\Users\jared\git\Basic-Portfolio\assets\images\Placeholder4.jpg"
+                        alt="Placeholder Image"/>
+                        <div class="image-text-alignment">Image Text</div>
+                    </div>
+                        
+                </div>
 
-                <img id="image3"
-                    src="C:\Users\jared\git\Basic-Portfolio\assets\images\Placeholder3.jpg"
-                    alt="Placeholder Image"/>
-
-                <img id="image4"
-                    src="C:\Users\jared\git\Basic-Portfolio\assets\images\Placeholder4.jpg"
-                    alt="Placeholder Image"/>
-
-                <img id="image5"
-                    src="C:\Users\jared\git\Basic-Portfolio\assets\images\Placeholder5.jpg"
-                    alt="Placeholder Image"/>
+                <div id="row">
+                    <div id="image">   
+                        <img id="image5"
+                        src="C:\Users\jared\git\Basic-Portfolio\assets\images\Placeholder5.jpg"
+                        alt="Placeholder Image"/>
+                        <div class="image-text-alignment">Image Text</div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -52,8 +76,8 @@
 
     <footer>
         <p id="footer-text">
-            Copyright: Jared Wheet 2018 
-            <a href ="mailto:jaredwheet@gmail.com"> E-mail</a>
+            Copyright &copy Jared Wheet | 2018 |
+            <a href="mailto:jaredwheet@gmail.com"> E-mail</a>
         </p>
     </footer>
 </html>
