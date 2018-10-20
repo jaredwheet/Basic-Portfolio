@@ -71,11 +71,11 @@ a:active {
     color: #4aaaa5; 
 }
 
-}
+
 
 a:hover {
     text-decoration: underline;
-    background-color: #4aaa4a;
+    background-color: #4aaaa5;
 }
 
 #main-content {
